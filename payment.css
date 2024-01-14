@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.heading {
+    font-family: 'Smooch', cursive;
+    padding: 60px;
+    font-size: 1.20rem;
+}
+
+.heading a {
+    color: white;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.paying__section {
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.paying__header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.paying__paragraph {
+    font-size: small;
+    color: #989898;
+    padding-top: 0.5rem;
+}
+
+/* BOXES */
+
+.paying__box {
+    color: rgb(171, 171, 171);
+    border: solid white 1px;
+    border-radius: 20px;
+    height: 35rem;
+    width: 26rem;
+    padding: 20px;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.paying__details {
+    color: #989898;
+    text-transform: uppercase;
+}
+
+.flex-end {
+    display: flex;
+    align-self: baseline;
+}
+
+.paying__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.paying__price {
+    font-size: xx-large;
+    padding-bottom: 4.5rem;
+}
+
+.price2 {
+    padding-bottom: 2rem;
+}
+
+.price3 {
+    padding-bottom: 2rem;
+}
+
+.detail1 {
+    padding-bottom: 8rem;
+}
+.detail2 {
+    padding-bottom: 5.8rem;
+}
+.detail3 {
+    padding-bottom: 3.5rem;
+}
+
+.ul1 {
+    padding-bottom: 1rem;
+}
+.ul2 {
+    padding-bottom: 1rem;
+}
+.ul3 {
+    padding-bottom: 1rem;
+}
+
+.btn1,
+.btn2 {
+    cursor: pointer;
+    padding: 0.6rem 11rem ;
+    border: white 1px solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+} 
+
+.paying__btn:hover {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.btn3 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.paying__details {
+    color: darkgoldenrod;
+    text-transform: capitalize;
+}
+
+.paying__ul {
+    line-height: 1.2;
+}
+
+/* NOTE SECTION */
+
+.note__paragraph {
+    color: white;
+    padding: 40px 70px;
+    max-width: 80ch; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* hr */
+
+hr {
+    margin-top: 3cm;
+}
+
+/* Footer */
+
+.footer {
+    font-family: 'Smooch', cursive;
+    color: white;
+    padding: 60px;
+    font-size: 1.20rem;
+}
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer li{
+    list-style-type: none;
+    display: flex;   
+}
+
+/* media queries */
+
+@media (max-width: 1280px) {
+    .paying__container {
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+    .box3 {
+        margin: 0;
+    }
+
+    .note__paragraph {
+        margin: 0 auto;
+
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .box2 {
+        margin: 0;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 475px) {
+
+    .heading {
+        padding: 30px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .paying__header {
+        font-size: medium;
+    }
+
+    .note__paragraph {
+        padding: 0 40px;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 0.3rem 9rem;
+    }
+
+
+}

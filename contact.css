@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    height: 140vh;
+}
+
+.heading{
+    font-family: 'Smooch', cursive;
+    padding: 60px;
+    font-size: larger;
+    display: flex;
+}
+
+.heading a {
+    color: white;
+}
+
+
+/* FINISHED HEADING */
+
+.container {
+    color: white;
+    display: flex;
+}
+
+.heading-2{
+    padding: 40px 0 0 60px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contacts{
+    padding: 20px 0 0 60px;
+    line-height: 1.5cm;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    max-width: 50%;
+}
+
+.icon{
+    fill: white;
+}
+
+.form {
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filling__form {
+    margin-top: 3rem;
+}
+
+.filling__heading {
+    word-spacing: 0.10rem;
+    display: flex;
+}
+
+
+.filling__form-2 {
+    margin-top: 3rem;
+}
+
+.filling__info p {
+    display: flex;
+}
+
+.filling__name {
+    display: flex;
+    gap: 12rem;
+}
+
+
+.filling__heading-2,
+.filling__heading-3,
+.filling__heading-4,
+.filling__heading-5 {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.filling__input,
+.filling__input-2 {
+    padding: 0 6px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 3rem;
+    width: 16rem;
+    color: white;
+
+}
+.filling__input-3,
+.filling__input-4,
+.filling__input-5,
+.filling__input-6 {
+    padding: 0 6px;
+    height: 3rem;
+    width: 32rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    display: flex;
+}
+
+.filling__input,
+.filling__input-2,
+.filling__input-3,
+.filling__input-4,
+.filling__input-5,
+.filling__input-6,[type='text'] {
+    font-size: larger;  
+}
+
+.filling__btn {
+    display: flex;
+    margin-top: 2cm;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 999px;
+    padding: 0.25rem 1rem;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.hr {
+    margin-top: 8cm;
+    
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px ;
+    font-size: larger;
+}
+
+.footer li {
+    list-style-type: none;
+
+}
+
+.footer h1 {
+    font-family: 'Smooch', cursive;
+    color: white;
+
+
+}
+
+/* FUCKING MEDIA QUERIES */
+
+@media (max-width: 1536px) {
+
+    /* nothing */
+
+}
+
+@media (max-width: 1280px) { 
+
+    /* nothing */
+
+}
+
+@media (max-width: 1024px) {
+
+
+    .container {
+        height: 35cm;
+        display: block;
+    }
+
+    .form__description {
+        margin-top: 80px;
+    }
+
+    .filling__heading,
+    .filling__heading-2, 
+    .filling__heading-3,
+    .filling__heading-4,
+    .filling__heading-5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filling__name {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filling__input-3,
+    .filling__input-4,
+    .filling__input-5,
+    .filling__input-6 {
+        margin: 0 auto;
+    }
+
+    .filling__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filling__heading {
+        padding: 0 24rem 0 0 ;
+    }
+
+    .filling__name2 {
+        padding: 0 10rem 0 0;
+    }
+
+    .filling__heading-2 {
+        padding: 0 28rem 0 0;
+    }
+
+    .filling__heading-3 {
+        padding: 0 14rem 0 0;
+    }
+
+    .filling__heading-4 {
+        padding: 0 15rem 0 0;
+
+        
+    }
+
+    .filling__heading-5 {
+        padding: 0 8rem 0 0;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {  
+}
+
+@media (max-width: 640px) {
+    .contacts {
+        font-size: medium;
+    }
+
+    .form__description {
+        font-size: small;
+    }
+
+    .filling__heading {
+        display: flex;
+        font-size: larger;
+    }
+
+    .filling__name {
+        display: flex;
+        font-size: small;
+    }
+
+    .filling__input,
+    .filling__input-2 {
+        width: 12rem;
+    }
+
+    .filling__heading-2,
+    .filling__heading-3,
+    .filling__heading-4,
+    .filling__heading-5 {
+        font-size: medium;
+    }
+
+    .filling__input-3,
+    .filling__input-4,
+    .filling__input-5,
+    .filling__input-6 {
+        width: 24rem;
+    }
+
+    .filling__heading {
+        padding: 0;
+    }
+
+    .filling__name2 {
+        padding: 0;
+    }
+
+    .filling__heading-2 {
+        padding: 0;
+    }
+
+    .filling__heading-3 {
+        padding: 0;
+    }
+
+    .filling__heading-4 {
+        padding: 0;
+
+        
+    }
+
+    .filling__heading-5 {
+        padding: 0;
+
+        
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+
+
+
+   
+  
+
+   
+}
+
+@media (max-width: 475px) {
+
+    .heading {
+        padding: 20px;
+        font-size: large;
+    }
+
+    .contacts {
+        font-size: small;
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+
+    .form__description {
+        font-size: medium;
+        max-width: 35ch;
+        margin: 60px auto 0;
+    }
+
+    .filling__heading {
+        font-size: large;
+    }
+
+    .filling__name{
+        font-size: small;
+    }
+
+
+
+    .filling__input,
+    .filling__input-2 {
+        width: 10rem;
+    }
+
+    .filling__heading-2,
+    .filling__heading-3,
+    .filling__heading-4,
+    .filling__heading-5 {
+        font-size: large;
+    }
+
+    .filling__input-3,
+    .filling__input-4,
+    .filling__input-5,
+    .filling__input-6 {
+        width: 20rem;
+    }
+
+    .btn {
+        width: 20rem;
+        background-color: transparent;
+        color: white;
+        border: white solid 1px;
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+   
+
+    .footer {
+        font-size: small;
+    }
+
+
+
+
+
+    
+
+}
+
+

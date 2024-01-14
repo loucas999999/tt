@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.heading{
+    font-family: 'Smooch', cursive;
+    padding: 60px;
+    font-size: larger;
+    display: flex;
+}
+
+.heading a {
+    color: white;
+}
+
+.heading2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 14rem;
+    font-size: xx-large;
+}
+
+.images {
+    max-width: 35%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section__img {
+    display: flex;
+    flex: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.heading3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 14rem;
+    margin-top: 6rem;
+    font-size: xx-large;
+
+}
+
+.section__img2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.ending__paragraph {
+    font-size: 2rem;
+    color: white;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.icon {
+    fill:white;
+}
+
+.icon__flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px ;
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer h1 {
+    font-family: 'Smooch', cursive;
+    color: white;
+}
+
+
+@media (max-width: 1536px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+    .heading2,
+    .heading3 {
+        padding: 0 0 0 8rem;
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .heading,
+    .footer {
+        padding: 30px;
+    }
+
+    .ending__paragraph {
+        font-size: x-large;
+    }
+
+
+}
+
+@media (max-width: 640px) {
+
+    .heading2,
+    .heading3 {
+        font-size: x-large;
+        padding: 0 0 0 6rem;
+    }
+
+    .ending__paragraph {
+        font-size: large;
+    }
+
+    .footer {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    .images {
+        flex: 0;
+        max-width: 45%;
+        padding: 10px;
+    }
+
+    .heading2,
+    .heading3 {
+        font-size: x-large;
+        padding: 0 0 0 2rem;
+    }
+
+    .ending__paragraph {
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: small;
+    }
+
+
+
+}
+

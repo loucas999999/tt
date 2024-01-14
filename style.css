@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading,
+.footer {
+    font-family: 'Smooch', cursive;
+    color: white;
+    padding: 60px;
+    font-size: 1.20rem;
+}
+
+.nav a{
+    color: white;
+    fill: white;
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 80px 50px 0 0 ;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.img {
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.more{
+    font-family: 'Poppins', sans-serif;
+    height: 3cm;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: white
+}
+
+.more a{
+    color: rgba(255, 255, 255, 0.23); 
+    font-size: medium;   
+}
+
+.box{
+    margin-top: 2.5cm;
+    background-color: white;
+    height: 90vh;
+}
+
+.box p{
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12cm;
+}
+
+#talk a{
+    position: absolute;
+    color:black;
+    font-size: medium;
+    top: 45cm;
+}
+
+.box a::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 100%;
+    background: black;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
+.box a:hover::before{
+    transform: scaleX(1);
+}
+
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer li{
+    list-style-type: none;
+    display: flex;   
+}
+
+/* SLIDER */
+
+.container {
+    height: 90vh;
+    display: flex;
+}
+
+.slider {
+    display: flex;
+    gap: 1rem;
+    width: 660px;
+    height: 540px;
+    padding: 30px;
+}
+
+.slider img {
+    border-radius: 15px;
+}
+
+
+.heading__equip {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 4rem;
+    padding: 50px 0 0 40px;
+}
+
+.equip__container {
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    padding: 25px 30px ;
+}
+
+.equip__description {
+    padding-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.equip__description h1 {
+    padding-left: 40px;
+}
+
+.equip__description p {
+    padding: 10px 40px;
+}
+
+.gear__note {
+    color: white;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1536px) {
+
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 19.25cm;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
+
+@media (max-width: 1280px) {
+    #talk a {
+        top: 42cm;
+    }
+}
+
+@media (max-width: 1024px) {
+    #talk a {
+        top: 34cm;
+    }
+
+    .box {
+        height: 60vh;
+    }
+
+    .box p {
+        font-size: x-large;
+        height: 8cm;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .slider {
+        margin: 0 auto;
+    }
+
+   
+}
+
+@media (max-width: 768px) {
+    #talk a {
+        top: 45cm;
+        font-size: small;
+    }
+
+    .box {
+        height: 60vh;
+    }
+
+    .box p {
+        font-size: larger;
+        height: 8cm;
+    }
+
+    .images {
+        display: flex;
+    }
+
+    .img {
+        max-width: 30%;
+    }
+
+    .nav a {
+        font-size: medium;
+
+    }    
+
+    .slider {
+        width: 520px;
+        height: 460px;
+    }
+
+    .equip__description {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .heading,
+    .footer {
+        padding: 30px;
+    }
+
+    .nav a {
+        font-size: medium;
+    }
+
+    .nav li {
+        padding: 50px 25px 0 0 ;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+
+    .img {
+        max-width: 40%;
+    }
+
+    #talk a {
+        top: 50cm;
+        font-size: small;
+    }
+
+    .box {
+        height: 50vh;
+    }
+
+    .box p {
+        font-size: larger;
+        max-width: 30ch;
+        height: 8cm;
+        margin:0 auto;
+    }
+
+    #work {
+        padding: 0 15px 0 0;
+    }
+
+    .slider {
+        width: 420px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .footer {
+        font-size: small;
+        padding: 20px;
+    }
+
+    .box {
+        height: 80vh;
+    }
+
+    .section__gear {
+        height: 10vh;
+    }
+
+    .nav {
+        text-align: right;
+    }
+
+    .nav li {
+        display: block;
+        padding: 20px 20px 0 0;
+    }
+
+    #talk a {
+        top: 47cm;
+        font-size: small;
+    }
+
+    .slider {
+        width: 380px;
+        height: 280px;
+    }
+
+    .heading__equip {
+        font-size: xx-large;
+    }
+
+    .equip__container {
+        padding: 0;
+    }
+}

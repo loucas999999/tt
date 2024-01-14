@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+.heading{
+    font-family: 'Smooch', cursive;
+    padding: 60px;
+    font-size: larger;
+    display: flex;
+}
+
+.heading a {
+    color: white;
+}
+
+.success__heading {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1536px) {
+    /* nothing */
+
+
+}
+
+@media (max-width: 1280px) {
+    /* nothing */
+
+}
+
+@media (max-width: 1024px) {
+    /* nothing */
+
+}
+
+@media (max-width: 768px) {
+    .heading {
+        padding: 30px;
+    }
+
+    .success__heading {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .heading {
+        padding: 30px;
+    }
+
+    .success__heading {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    .heading {
+        padding: 30px;
+        font-size: large;
+    }
+
+    .success__heading {
+        margin-top: 80px;
+        font-size: medium;
+    }
+
+
+
+}
