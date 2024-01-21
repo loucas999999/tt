@@ -77,7 +77,7 @@ header{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 900;
+    font-weight: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,6 +197,14 @@ header{
     #talk a {
         top: 42cm;
     }
+
+    .equip__container {
+        padding-right: 0;
+    }
+
+    .equip__description {
+        font-size: small;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -218,10 +226,18 @@ header{
     }
 
     .slider {
-        margin: 0 auto;
+        padding: 0 12rem;
     }
 
-   
+    .equip__container {
+        padding: 6rem 0 0 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider {
+        padding: 10px 6rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -253,8 +269,7 @@ header{
     }    
 
     .slider {
-        width: 520px;
-        height: 460px;
+        padding: 2rem 3rem;
     }
 
     .equip__description {
@@ -315,19 +330,6 @@ header{
 
 @media (max-width: 475px) {
 
-    .footer {
-        font-size: small;
-        padding: 20px;
-    }
-
-    .box {
-        height: 80vh;
-    }
-
-    .section__gear {
-        height: 10vh;
-    }
-
     .nav {
         text-align: right;
     }
@@ -337,21 +339,47 @@ header{
         padding: 20px 20px 0 0;
     }
 
+    .box {
+        height: 40vh;
+    }
+
     #talk a {
-        top: 47cm;
+        top: 48cm;
         font-size: small;
     }
 
-    .slider {
-        width: 380px;
-        height: 280px;
-    }
-
     .heading__equip {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .equip__container {
         padding: 0;
     }
+
+    .container {
+        height: 65rem;
+    }
+
+    .footer {
+        font-size: small;
+        padding: 20px;
+    }
+
+   
+}
+
+@media (max-width: 410px) {
+    #talk a {
+        top: 45cm;
+        font-size: small;
+    }
+
+    .slider {
+        padding-right: 10px;
+        width: 380px;
+        height: 280px;
+    }
+
+
+
 }
