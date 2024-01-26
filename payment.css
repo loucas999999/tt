@@ -196,9 +196,7 @@ hr {
 
     .note__paragraph {
         margin: 0 auto;
-
     }
-
 }
 
 @media (max-width: 1024px) {
@@ -206,18 +204,6 @@ hr {
     .box2 {
         margin: 0;
     }
-
-
-
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
 }
 
 @media (max-width: 475px) {
@@ -236,7 +222,7 @@ hr {
     }
 
     .note__paragraph {
-        padding: 0 40px;
+        padding: 10px 40px;
     }
 
     .btn1,
@@ -244,5 +230,8 @@ hr {
         padding: 0.3rem 9rem;
     }
 
+    .btn3 {
+        padding: 0;
 
+    }
 }
