@@ -327,12 +327,12 @@ header{
     }
 
     .imgx {
-        max-height: 45%;
+        max-height: 40%;
 
     }
 
     .imgy {
-        max-height: 45%;
+        max-height: 40%;
     }
 
     .section__gear {
@@ -347,11 +347,11 @@ header{
     }
 
     .imgx {
-        max-height: 85%;
+        max-height: 40%;
     }
 
     .imgy {
-        max-height: 98%;
+        max-height: 40%;
     }
 
     .text2 {
