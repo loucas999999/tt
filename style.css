@@ -152,16 +152,7 @@ header{
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 10px 30px 0 0;
-
 }
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 
@@ -169,7 +160,6 @@ header{
     .images__2 {
         max-height: 60%;
     }
-
 }
 
 @media (max-width: 1280px) {
@@ -186,12 +176,7 @@ header{
     .images__2 {
         max-height: 40%;
     }
-
-
-
 }
-
-
 
 @media (max-width: 1024px) {
     #talk a {
@@ -210,11 +195,6 @@ header{
     .images__2 {
         max-height: 35%;
     }
-
-
-
-
-
 }
 
 @media (max-width: 900px) {
@@ -223,15 +203,13 @@ header{
         justify-content: center;
     }
 
-    .imgx {
-        margin-left: 20px;
+    .box {
+        height: 100vh;
     }
 
     .gear__info {
         padding: 30px;
     }
-
-
 }
 
 @media (max-width: 768px) {
@@ -241,16 +219,12 @@ header{
     }
 
     .box {
-        height: 60vh;
+        height: 80vh;
     }
 
     .box p {
         font-size: larger;
         height: 8cm;
-    }
-
-    .images {
-        display: flex;
     }
 
     .img {
@@ -259,15 +233,10 @@ header{
 
     .nav a {
         font-size: medium;
-
     }    
 
-    .slider-wrapper {
-        padding: 2rem 3rem;
-    }
-
-    .equip__description {
-        font-size: smaller;
+    .section__gear {
+        height: 150vh;
     }
 }
 
@@ -283,13 +252,13 @@ header{
     }
 
     .nav li {
-        padding: 50px 25px 0 0 ;
+        padding: 50px 30px 0 0;
     }
 
     .images {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .img {
@@ -297,12 +266,8 @@ header{
     }
 
     #talk a {
-        top: 50cm;
+        top: 60cm;
         font-size: small;
-    }
-
-    .box {
-        height: 50vh;
     }
 
     .box p {
@@ -312,55 +277,48 @@ header{
         margin:0 auto;
     }
 
-    #work {
-        padding: 0 15px 0 0;
-    }
-
     .imgx {
-        margin: 20px;
         max-height: 40%;
     }
 
     .imgy {
-        margin: 0 0 0 15px;
         max-height: 45%;
     }
 
     .section__gear {
-        height: 60cm;
+        height: 30cm;
     }
 }
 
 @media (max-width: 475px) {
 
+    .heading {
+        font-size: medium;
+        padding: 20px;
+    }
+
     .nav {
-        text-align: right;
+        text-align: center;
+        padding-top: 25px;
     }
 
     .nav li {
         display: block;
-        padding: 20px 20px 0 0;
+        padding: 10px 20px 0 0;
     }
 
     .box {
-        height: 40vh;
+        height: 100vh;
     }
 
     #talk a {
-        top: 48cm;
+        top: 50cm;
         font-size: small;
     }
 
     .heading__equip {
-        font-size: 3rem;
-    }
-
-    .equip__container {
-        padding: 0;
-    }
-
-    .container {
-        height: 65rem;
+        font-size: 2.5rem;
+        padding: 20px;
     }
 
     .footer {
@@ -368,26 +326,40 @@ header{
         padding: 20px;
     }
 
-   
+    .imgx {
+        max-height: 45%;
+
+    }
+
+    .imgy {
+        max-height: 45%;
+    }
+
+    .section__gear {
+        height: 200vh;
+    }
 }
 
 @media (max-width: 410px) {
     #talk a {
-        top: 42.5cm;
+        top: 44cm;
         font-size: x-small;
     }
 
     .imgx {
-        max-height: 45%;
+        max-height: 85%;
     }
 
-
     .imgy {
-        max-height: 50%;
+        max-height: 98%;
     }
 
     .text2 {
         padding-top: 30px;
+    }
+
+    .section__gear {
+        height: 350vh;
     }
 }
     
