@@ -173,22 +173,9 @@ body{
 
 }
 
-/* FUCKING MEDIA QUERIES */
-
-@media (max-width: 1536px) {
-
-    /* nothing */
-
-}
-
-@media (max-width: 1280px) { 
-
-    /* nothing */
-
-}
+/* MEDIA QUERIES */
 
 @media (max-width: 1024px) {
-
 
     .container {
         height: 35cm;
@@ -250,12 +237,6 @@ body{
     .filling__heading-5 {
         padding: 0 8rem 0 0;
     }
-
-
-
-}
-
-@media (max-width: 768px) {  
 }
 
 @media (max-width: 640px) {
@@ -327,21 +308,14 @@ body{
     .footer {
         padding: 30px;
     }
-
-
-
-
-   
-  
-
-   
 }
 
 @media (max-width: 475px) {
 
+
     .heading {
+        font-size: medium;
         padding: 20px;
-        font-size: large;
     }
 
     .contacts {
@@ -397,18 +371,9 @@ body{
         color: black;
     }
 
-   
-
     .footer {
         font-size: small;
     }
-
-
-
-
-
-    
-
 }
 
 

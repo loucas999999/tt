@@ -94,23 +94,11 @@ body{
     color: white;
 }
 
-
-@media (max-width: 1536px) {
-
-}
-
-@media (max-width: 1280px) {
-
-}
-
 @media (max-width: 1024px) {
     .heading2,
     .heading3 {
         padding: 0 0 0 8rem;
-
     }
-
-
 }
 
 @media (max-width: 768px) {
@@ -123,8 +111,6 @@ body{
     .ending__paragraph {
         font-size: x-large;
     }
-
-
 }
 
 @media (max-width: 640px) {
@@ -142,10 +128,15 @@ body{
     .footer {
         font-size: medium;
     }
-
 }
 
 @media (max-width: 475px) {
+
+
+    .heading {
+        font-size: medium;
+        padding: 20px;
+    }
 
     .images {
         flex: 0;
@@ -166,8 +157,5 @@ body{
     .footer {
         font-size: small;
     }
-
-
-
 }
 

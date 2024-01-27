@@ -186,7 +186,7 @@ hr {
 
 @media (max-width: 1280px) {
     .paying__container {
-        padding: 30px;
+        padding: 10px;
         flex-wrap: wrap;
     }
 
@@ -199,17 +199,11 @@ hr {
     }
 }
 
-@media (max-width: 1024px) {
-
-    .box2 {
-        margin: 0;
-    }
-}
-
 @media (max-width: 475px) {
 
     .heading {
-        padding: 30px;
+        font-size: medium;
+        padding: 20px;
     }
 
     .footer {
@@ -225,14 +219,12 @@ hr {
         padding: 10px 40px;
     }
 
-    .btn1,
-    .btn2 {
-        padding: 0.3rem 9rem;
+    .box2 {
+        margin: 0;
     }
 
-    .btn3 {
-        padding: 0;
-        padding-bottom: 10px;
-
+    .btn1,
+    .btn2{
+        padding: 0.3rem 9rem;
     }
 }

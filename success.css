@@ -70,8 +70,8 @@ body{
 @media (max-width: 475px) {
 
     .heading {
-        padding: 30px;
-        font-size: large;
+        font-size: medium;
+        padding: 20px;
     }
 
     .success__heading {
