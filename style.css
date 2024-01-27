@@ -127,54 +127,46 @@ header{
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 4rem;
-    padding: 50px 0 0 40px;
+    padding: 50px 0 80px 60px;
 }
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 120vh;
+}
+
+.gear__img {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 2rem;
 }
 
 .images__2 {
-    padding: 20px;
-    max-height: 70%;
+    max-width: 40%;
+    border-radius: 5px;
 }
 
-.imgx {
-    border-radius: 30px;
-}
+.gear__info {
+    padding-right: 30px;
 
-.imgy {
-    border-radius: 30px;
-}
 
+}
 .gear__text {
     color: white;
     font-family: 'Poppins', sans-serif;
-    padding: 10px 30px 0 0;
+    max-width: 120ch;
+}
+
+.text1 {
+    padding-bottom: 2rem;
 }
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1536px) {
-    .images__2 {
-        max-height: 60%;
-    }
-}
-
 @media (max-width: 1280px) {
     #talk a {
         top: 42cm;
-    }
-
-    .images__2 {
-        max-height: 50%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .images__2 {
-        max-height: 40%;
     }
 }
 
@@ -191,10 +183,6 @@ header{
         font-size: x-large;
         height: 8cm;
     }
-
-    .images__2 {
-        max-height: 35%;
-    }
 }
 
 @media (max-width: 900px) {
@@ -209,6 +197,10 @@ header{
 
     .gear__info {
         padding: 30px;
+    }
+
+    .container {
+        height: 160vh;
     }
 }
 
@@ -234,10 +226,6 @@ header{
     .nav a {
         font-size: medium;
     }    
-
-    .section__gear {
-        height: 150vh;
-    }
 }
 
 @media (max-width: 640px) {
@@ -276,18 +264,6 @@ header{
         height: 8cm;
         margin:0 auto;
     }
-
-    .imgx {
-        max-height: 40%;
-    }
-
-    .imgy {
-        max-height: 45%;
-    }
-
-    .section__gear {
-        height: 30cm;
-    }
 }
 
 @media (max-width: 475px) {
@@ -308,7 +284,7 @@ header{
     }
 
     .box {
-        height: 100vh;
+        height: 80vh;
     }
 
     #talk a {
@@ -325,19 +301,6 @@ header{
         font-size: small;
         padding: 20px;
     }
-
-    .imgx {
-        max-height: 40%;
-
-    }
-
-    .imgy {
-        max-height: 40%;
-    }
-
-    .section__gear {
-        height: 200vh;
-    }
 }
 
 @media (max-width: 410px) {
@@ -346,20 +309,8 @@ header{
         font-size: x-small;
     }
 
-    .imgx {
-        max-height: 77%;
-    }
-
-    .imgy {
-        max-height: 88%;
-    }
-
-    .text2 {
-        padding-top: 30px;
-    }
-
-    .section__gear {
-        height: 350vh;
+    .container {
+        height: 170vh;
     }
 }
     
