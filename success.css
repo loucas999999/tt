@@ -27,6 +27,7 @@ body{
 .success__heading {
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 
 @media (max-width: 1536px) {
