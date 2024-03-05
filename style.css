@@ -8,6 +8,39 @@
     text-decoration: none;
 }
 
+.dropdown { 
+    display: inline-block; 
+    position: relative; 
+} 
+
+
+.menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .menu {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 body{
     background-color: black;
 }
@@ -17,7 +50,11 @@ header{
     justify-content: space-between;
 }
 
-.heading,
+.img_logo {
+    padding: 60px;
+    max-width: 50%;
+}
+
 .footer {
     font-family: 'Smooch', cursive;
     color: white;
@@ -132,7 +169,7 @@ header{
 
 .container {
     display: flex;
-    height: 120vh;
+    height: 80vh;
 }
 
 .gear__img {
@@ -168,6 +205,10 @@ header{
     #talk a {
         top: 42cm;
     }
+
+    .container {
+        height: 110vh;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -202,6 +243,19 @@ header{
     .container {
         height: 160vh;
     }
+
+    .img_logo {
+        padding: 60px;
+        max-width: 45%;
+    }
+
+    .nav li {
+        padding: 4.5rem 0.7rem 0 0;
+    }
+
+    .nav {
+        padding-right: 3rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -224,15 +278,40 @@ header{
     }
 
     .nav a {
-        font-size: medium;
+        font-size: large;
     }    
+
+    .nav li {
+        padding: 4.5rem 1rem 0 0;
+    }
+
+    .nav {
+        padding-right: 1.5rem;
+    }
+
+    .img_logo {
+        margin-bottom: 2rem;
+        max-width: 70%;
+    }
+
+    .heading {
+        width: 16rem;
+    }
 }
 
 @media (max-width: 640px) {
 
-    .heading,
     .footer {
         padding: 30px;
+    }
+
+    .img_logo {
+        padding: 40px 0 0 25px;
+        max-width: 50%;
+    }
+
+    .heading {
+        width: 12rem;
     }
 
     .nav a {
@@ -240,7 +319,7 @@ header{
     }
 
     .nav li {
-        padding: 50px 30px 0 0;
+        padding: 60px 25px 0 0;
     }
 
     .images {
@@ -269,8 +348,13 @@ header{
 @media (max-width: 475px) {
 
     .heading {
-        font-size: medium;
-        padding: 20px;
+        width: 8rem;
+    }
+
+    .img_logo {
+        max-width: 80%;
+        padding: 25px 0 0 25px;
+
     }
 
     .nav {
